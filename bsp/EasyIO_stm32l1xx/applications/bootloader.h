@@ -1,0 +1,18 @@
+#ifndef __bootloader__
+#define __bootloader__
+
+#define BASE_ADDRESS				0x8000000
+
+#define BOOTLOADER_ADDR			BASE_ADDRESS
+#define BOOTLOADER_SIZE			(1024*128)
+
+#define INSTALL_ADDRESS			BASE_ADDRESS + BOOTLOADER_SIZE
+#define INSTALL_SIZE				1024 * 256
+
+#define EASYIO_ADDRESS			BASE_ADDRESS + BOOTLOADER_SIZE
+#define EASYIO_APP_SIZE			1024 * 256
+
+
+
+
+#endif
